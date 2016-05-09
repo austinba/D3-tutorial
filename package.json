@@ -1,0 +1,18 @@
+{
+  "name": "d3tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run babel & live-server",
+    "babel": "babel . --out-dir compiled --presets=es2015 --ignore=node_modules,compiled --source-maps inline --watch"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "d3": "^3.5.17",
+    "underscore": "^1.8.3"
+  }
+}
